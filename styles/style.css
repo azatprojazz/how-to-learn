@@ -323,17 +323,21 @@
 }
 
 .footer__column_content_social {
+  display: flex;
+  flex-direction: column;
   color: white;
+
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  padding-top: 7px;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
   line-height: 30px;
