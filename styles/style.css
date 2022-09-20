@@ -155,7 +155,6 @@
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
-  /* margin: 0 auto 100px; */
 }
 
 .table__cell {
@@ -252,8 +251,6 @@
 .section-subtitle_theme_dark {
   color: white;
 }
-
-/* и элемента с модификатором вида ключ-значение */
 
 .table__cell_theme_dark {
   max-width: 200px;
