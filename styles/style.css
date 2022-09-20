@@ -245,7 +245,7 @@
   height: 877px;
   background-image: url('../images/kaufman-triangle.svg');
   background-repeat: no-repeat;
-  background-size: 877px 877px;
+  background-size: cover;
 }
 
 .section-title_theme_dark {
