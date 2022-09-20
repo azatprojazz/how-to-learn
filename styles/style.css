@@ -69,7 +69,6 @@
   height: 608px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   z-index: 1;
