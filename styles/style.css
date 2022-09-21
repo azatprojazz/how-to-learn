@@ -81,6 +81,8 @@
 
 .description {
   display: flex;
+  justify-content: center;
+  margin: 100px auto;
   background-color: white;
 }
 
@@ -88,7 +90,6 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 100px auto 100px;
 }
 
 .two-columns__brief {
@@ -124,7 +125,7 @@
 }
 
 .digits {
-  padding: 100px 0 100px;
+  margin: 100px auto;
   background-color: white;
 }
 
@@ -159,7 +160,7 @@
 .table__cell {
   display: flex;
   flex-flow: wrap column;
-  max-width: 250px;
+  width: 250px;
   margin: 60px 0;
 }
 
