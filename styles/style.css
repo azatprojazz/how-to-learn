@@ -130,7 +130,8 @@
 }
 
 .section-title {
-  width: 60%;
+  width: 100%;
+  max-width: 60%;
   margin: 0 auto 20px;
   text-align: center;
   font-size: 60px;
@@ -139,7 +140,8 @@
 }
 
 .section-subtitle {
-  width: 60%;
+  width: 100%;
+  max-width: 60%;
   margin: 0 auto;
   text-align: center;
   font-size: 24px;
@@ -176,6 +178,8 @@
 }
 
 .table__text {
+  width: 100%;
+  max-width: 250px;
   margin: 0 0 20px;
   font-size: 18px;
   font-weight: normal;
@@ -259,10 +263,11 @@
 }
 
 .table__text_theme_dark {
-  max-width: 205px;
+  max-width: 200px;
 }
 
 .footer {
+  box-sizing: border-box;
   min-height: 350px;
   background-color: #1f1f1f;
 }
