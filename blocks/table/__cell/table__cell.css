@@ -1,0 +1,10 @@
+.table__cell {
+  display: flex;
+  flex-flow: wrap column;
+  width: 250px;
+  margin: 60px 0;
+}
+
+.table__cell:nth-last-child(n) {
+  margin-bottom: 0;
+}

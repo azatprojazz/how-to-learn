@@ -1,0 +1,17 @@
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+.footer__column-link:hover {
+  transition-timing-function: linear;
+  transition-duration: .3s;
+  opacity: .6;
+}
+
+.footer__column-link:last-child {
+  margin-bottom: 16px;
+}

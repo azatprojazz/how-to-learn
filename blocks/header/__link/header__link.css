@@ -1,0 +1,11 @@
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  font-size: 18px;
+}
+
+.header__link:hover {
+  transition-timing-function: linear;
+  transition-duration: .3s;
+  opacity: .6;
+}

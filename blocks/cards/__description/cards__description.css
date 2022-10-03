@@ -1,0 +1,12 @@
+.cards__description {
+  margin: 0;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+.cards__description:last-child {
+  margin-bottom: 0;
+}
