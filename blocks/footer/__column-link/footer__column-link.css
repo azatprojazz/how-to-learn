@@ -9,7 +9,7 @@
 .footer__column-link:hover {
   transition-timing-function: linear;
   transition-duration: .3s;
-  opacity: .6;
+  opacity: .5;
 }
 
 .footer__column-link:last-child {

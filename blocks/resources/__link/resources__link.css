@@ -1,5 +1,5 @@
 .resources__link:hover {
   transition-timing-function: linear;
   transition-duration: .3s;
-  opacity: .6;
+  opacity: .5;
 }
