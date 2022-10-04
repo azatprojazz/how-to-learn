@@ -1,2 +1,3 @@
-<h1>Всем привет!</h1>
-<img width="1039" alt="image" src="https://user-images.githubusercontent.com/69019677/193797525-1b2defa6-0ce6-4cc6-93fa-b5cf8947dce8.png">
+<h1>Яндекс Практикум</h1>
+<img width="559" alt="image" src="https://user-images.githubusercontent.com/69019677/193797925-93d4f39b-1a44-4e9a-a921-7ad4a104f0f0.png">
+<p>Одностроничный лендинг, с множеством секций, с добавлением анимаций, семантики, наименованию классов по БЭМ, с файловой структурой по БЭМ nested</p>
