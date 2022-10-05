@@ -11,7 +11,7 @@
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header">
+        <a href="#"><img src="./images/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header"></a>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" target="_blank" class="header__link"> Узнать &rarr;</a></p>
         <img class="header__main-illustration" src="./images/header-image.png" alt="Грустный мальчик в шубе, отчаянным взглядом смотрит вниз, и мама с младшим сыном думают о чем-то. Только собака подбадривает мальчика, и смотрит радостно на него">
@@ -66,8 +66,10 @@
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <iframe class="video__iframes" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe class="video__iframes" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <div class="video__iframes">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </div>
         </section>
 
         <section class="oakley">
@@ -81,7 +83,7 @@
 
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
-          <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
           <a href="#" target="_blank" class="feynman__link">Подробнее &rarr;</a>
         </section>
 
@@ -192,18 +194,18 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <nav class="resources__logo-zone">
+        <div class="resources__logo-zone">
           <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
           <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N1"></a>
           <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a>
           <a class="resources__link" href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотим Полка"></a>
-        </nav>
+        </div>
       </section>
 
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-            <img src="./images/logo_place_footer.svg" alt="Яндекс Практикум" class="logo logo_place_footer">
+            <a href="#"><img src="./images/logo_place_footer.svg" alt="Яндекс Практикум" class="logo logo_place_footer"></a>
             <p class="footer__author">&copy; Бердиев Азат</p>
           </div>
           <div class="footer__column footer__column_content_info">

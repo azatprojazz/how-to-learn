@@ -1,9 +1,6 @@
 .video__iframes {
-  width: 515px;
-  height: 316px;
-  margin: 50px auto;
-}
-
-.video__iframes:last-child {
-  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
 }
