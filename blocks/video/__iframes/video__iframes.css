@@ -1,12 +1,6 @@
 .video__iframes {
   display: flex;
-<<<<<<< HEAD
   gap: 20px;
   justify-content: center;
   margin-top: 50px;
-=======
-  justify-content: center;
-  margin-top: 50px;
-  gap: 20px;
->>>>>>> refs/remotes/origin/main
 }
