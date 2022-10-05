@@ -1,5 +1,4 @@
-.resources__link:hover {
-  transition-timing-function: linear;
-  transition-duration: .3s;
-  opacity: .5;
+.resources__link {
+  display: flex;
+  align-items: center;
 }

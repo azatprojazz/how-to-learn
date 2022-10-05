@@ -2,9 +2,3 @@
   width: 228px;
   height: 32px;
 }
-
-.logo:hover {
-  transition-timing-function: linear;
-  transition-duration: .3s;
-  opacity: .5;
-}

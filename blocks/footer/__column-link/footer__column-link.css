@@ -6,12 +6,6 @@
   line-height: 30px;
 }
 
-.footer__column-link:hover {
-  transition-timing-function: linear;
-  transition-duration: .3s;
-  opacity: .5;
-}
-
 .footer__column-link:last-child {
   margin-bottom: 16px;
 }
