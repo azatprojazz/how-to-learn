@@ -19,9 +19,9 @@
       </header>
 
       <main class="content">
-        <section class="description">
+        <section class="description" aria-label="Блок со статьей">
           <article class="two-columns">
-            <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+            <h2 class="two-columns__brief">Главные проблемы в&nbsp;обучении</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
               <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
@@ -66,13 +66,13 @@
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          </div>
+          <ul class="video__iframes">
+            <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+            <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+          </ul>
         </section>
 
-        <section class="oakley">
+        <section class="oakley" aria-label="Рассказ Барбары Оакли">
           <article class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
@@ -209,19 +209,23 @@
             <p class="footer__author">&copy; Бердиев Азат</p>
           </div>
           <div class="footer__column footer__column_content_info">
-            <h3 class="footer__column-heading">О Практикуме</h3>
+            <h4 class="footer__column-heading">О Практикуме</h4>
             <nav class="footer__column-links">
-              <a href="#" target="_blank" class="footer__column-link hover-link">Главная</a>
-              <a href="#" target="_blank" class="footer__column-link hover-link">Концепция</a>
-              <a href="#" target="_blank" class="footer__column-link hover-link">Наставники</a>
+              <ul class="footer__list">
+                <li><a href="#" target="_blank" class="footer__column-link hover-link">Главная</a></li>
+                <li><a href="#" target="_blank" class="footer__column-link hover-link">Концепция</a></li>
+                <li><a href="#" target="_blank" class="footer__column-link hover-link">Наставники</a></li>
+              </ul>
             </nav>
           </div>
           <div class="footer__column footer__column_content_social">
-            <h3 class="footer__column-heading">Соцсети</h3>
+            <h4 class="footer__column-heading">Соцсети</h4>
             <nav class="footer__column-links">
-              <a href="#" target="_blank" class="footer__column-link hover-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Фейсбук">Facebook</a>
-              <a href="#" target="_blank" class="footer__column-link hover-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип Вконтакте">ВКонтакте</a>
-              <a href="#" target="_blank" class="footer__column-link hover-link"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Инстаграм">Instagram</a>
+              <ul class="footer__list">
+                <li><a href="#" target="_blank" class="footer__column-link hover-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Логотип Фейсбук">Facebook</a></li>
+                <li><a href="#" target="_blank" class="footer__column-link hover-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Логотип Вконтакте">ВКонтакте</a></li>
+                <li><a href="#" target="_blank" class="footer__column-link hover-link"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Логотип Инстаграм">Instagram</a></li>
+              </ul>
             </nav>
           </div>
         </div>
